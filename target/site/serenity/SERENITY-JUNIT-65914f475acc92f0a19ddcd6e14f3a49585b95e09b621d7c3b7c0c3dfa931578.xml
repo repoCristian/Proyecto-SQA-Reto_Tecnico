@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="cart" skipped="0" tests="1" time="0.27" timestamp="2024-09-11 02:58:06"><testcase name="Add and delete item to cart"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889)&#13;
+com.amazon.stepdefinitions.AddAndDeleteStepDefinitions.whenHeWantsAddProductsFrom(AddAndDeleteStepDefinitions.java:24)&#13;
+✽.he wants add product from todays deals and delete(file:///C:/Users/JulianFernandoCasafu/Desktop/Archivos/SerenityDemoQA/SerenityDemoQA/src/test/resources/features/addtocart.feature:6)&#13;
+</system-err></testcase></testsuite>

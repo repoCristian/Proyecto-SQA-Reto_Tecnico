@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="cart" skipped="0" tests="2" time="90.51" timestamp="2024-09-10 07:04:56"><testcase name="Add 2 products to cart"/><testcase name="Add and delete item to cart"><error message="element click intercepted: Element &lt;a href=&quot;/gp/goldbox?ref_=nav_cs_gb&quot; class=&quot;nav-a  &quot; tabindex=&quot;0&quot; data-csa-c-type=&quot;link&quot; data-csa-c-slot-id=&quot;nav_cs_0&quot; data-csa-c-content-id=&quot;nav_cs_gb&quot; data-csa-c-id=&quot;qb1roc-5iggmc-b6fdpz-1o66bo&quot;&gt;...&lt;/a&gt; is not clickable at point (111, 79). Other element would receive the click: &lt;div data-toaster-blocking=&quot;0&quot; data-toaster-csrftoken=&quot;hOnhOtYcY/rR4LblY/0Ir0uAlBXiO2tp5r1cFahWSGPXAAAAAGbg3u8AAAAB&quot; data-toaster-slot=&quot;DEFAULT&quot; data-toaster-type=&quot;AIS_INGRESS&quot; aria-describedby=&quot;glow-toaster-body&quot; aria-labelledby=&quot;glow-toaster-title&quot; class=&quot;a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout&quot; role=&quot;alertdialog&quot; style=&quot;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=128.0.2739.63)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [67c520da0fd88a17479ddca67d9e76a7, clickElement {id=f.B0AC656B9CD6C261B3D95ABA585495F4.d.41E6EB86A38C3EBA5B772650A8D0E06E.e.26}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60040}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\JULIAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60040/devtoo..., se:cdpVersion: 128.0.2739.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (67c520da0fd88a17479ddca67d9e76a7)] -&gt; xpath: //a[contains(.,'Today')]]&#10;Session ID: 67c520da0fd88a17479ddca67d9e76a7" type="org.openqa.selenium.ElementClickInterceptedException">element click intercepted: Element &lt;a href="/gp/goldbox?ref_=nav_cs_gb" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_0" data-csa-c-content-id="nav_cs_gb" data-csa-c-id="qb1roc-5iggmc-b6fdpz-1o66bo"&gt;...&lt;/a&gt; is not clickable at point (111, 79). Other element would receive the click: &lt;div data-toaster-blocking="0" data-toaster-csrftoken="hOnhOtYcY/rR4LblY/0Ir0uAlBXiO2tp5r1cFahWSGPXAAAAAGbg3u8AAAAB" data-toaster-slot="DEFAULT" data-toaster-type="AIS_INGRESS" aria-describedby="glow-toaster-body" aria-labelledby="glow-toaster-title" class="a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout" role="alertdialog" style=""&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=128.0.2739.63)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [67c520da0fd88a17479ddca67d9e76a7, clickElement {id=f.B0AC656B9CD6C261B3D95ABA585495F4.d.41E6EB86A38C3EBA5B772650A8D0E06E.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60040}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\JULIAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60040/devtoo..., se:cdpVersion: 128.0.2739.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (67c520da0fd88a17479ddca67d9e76a7)] -&gt; xpath: //a[contains(.,'Today')]]
+Session ID: 67c520da0fd88a17479ddca67d9e76a7</error><system-err>element click intercepted: Element &lt;a
+  href="/gp/goldbox?ref_=nav_cs_gb" class="nav-a " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_0"
+  data-csa-c-content-id="nav_cs_gb" data-csa-c-id="qb1roc-5iggmc-b6fdpz-1o66bo"&gt;...&lt;/a&gt; is not clickable at
+  point (111, 79). Other element would receive the click: &lt;div data-toaster-blocking="0"
+  data-toaster-csrftoken="hOnhOtYcY/rR4LblY/0Ir0uAlBXiO2tp5r1cFahWSGPXAAAAAGbg3u8AAAAB" data-toaster-slot="DEFAULT"
+  data-toaster-type="AIS_INGRESS" aria-describedby="glow-toaster-body" aria-labelledby="glow-toaster-title"
+  class="a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout"
+  role="alertdialog" style=""&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=128.0.2739.63)
+  Build info: version: '4.7.1', revision: 'c6795baf1a3'
+  System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+  Driver info: org.openqa.selenium.edge.EdgeDriver
+  Command: [67c520da0fd88a17479ddca67d9e76a7, clickElement
+  {id=f.B0AC656B9CD6C261B3D95ABA585495F4.d.41E6EB86A38C3EBA5B772650A8D0E06E.e.26}]
+  Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.63, fedcm:accounts:
+  true, ms:edgeOptions: {debuggerAddress: localhost:60040}, msedge: {msedgedriverVersion: 128.0.2739.67
+  (248489733b87..., userDataDir: C:\Users\JULIAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy:
+  normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60040/devtoo..., se:cdpVersion: 128.0.2739.63,
+  setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+  unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true,
+  webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+  Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (67c520da0fd88a17479ddca67d9e76a7)] -&gt; xpath:
+  //a[contains(.,'Today')]]
+  Session ID: 67c520da0fd88a17479ddca67d9e76a7&#13;
+  com.amazon.tasks.AddAndDelete.performAs(AddAndDelete.java:16)&#13;
+  com.amazon.stepdefinitions.AddAndDeleteStepDefinitions.whenHeWantsAddProductsFrom(AddAndDeleteStepDefinitions.java:34)&#13;
+  io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+  io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+  io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+  io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+  io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+  io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+  io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+  io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+  io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+  io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+  io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+  io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+  io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+  io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+  io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+  io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+  io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+  io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+  io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+  worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+  worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

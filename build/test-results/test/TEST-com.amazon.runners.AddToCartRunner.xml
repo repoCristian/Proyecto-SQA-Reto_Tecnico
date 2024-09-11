@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.runners.AddToCartRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-11T19:58:20" hostname="SQABOG-SQA-5134" time="49.44">
+  <properties/>
+  <testcase name="Add and delete item to cart" classname="com.amazon.runners.AddToCartRunner" time="49.44"/>
+  <system-out><![CDATA[
+Scenario: Add and delete item to cart                    ?[90m# src/test/resources/features/addtocart.feature:9?[0m
+  ?[32mGiven ?[0m?[32mthat ?[0m?[32m?[1muser?[0m?[32m has opened website?[0m                     ?[90m# com.amazon.stepdefinitions.AddToCartStepDefitinions.givenThatUserHasOpenedWebsite(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mhe wants add product from todays deals and delete?[0m ?[90m# com.amazon.stepdefinitions.AddAndDeleteStepDefinitions.whenHeWantsAddProductsFrom()?[0m
+  ?[32mThen ?[0m?[32mhe shouldnt see item?[0m                              ?[90m# com.amazon.stepdefinitions.AddAndDeleteStepDefinitions.thenHeShouldntSeeItem()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 127.0.6533.99 (f31af5097d90ef5ae5bd7b8700199bc6189ba34d-refs/branch-heads/6533@{#1910}) on port 22995
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1726084703.423][WARNING]: This version of ChromeDriver has not been tested with Chrome version 128.
+sept. 11, 2024 2:58:23 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+sept. 11, 2024 2:58:23 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>

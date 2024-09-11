@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="cart" skipped="0" tests="2" time="74.17" timestamp="2024-09-11 02:55:39"><testcase name="Add 2 products to cart"/><testcase name="Add and delete item to cart"><failure message="Expected value '0' but found '1'" type="java.lang.AssertionError">Expected value '0' but found '1'</failure><system-err>Expected value '0' but found '1'&#13;
+com.amazon.stepdefinitions.AddAndDeleteStepDefinitions.thenHeShouldntSeeItem(AddAndDeleteStepDefinitions.java:29)&#13;
+✽.he shouldnt see item(file:///C:/Users/JulianFernandoCasafu/Desktop/Archivos/SerenityDemoQA/SerenityDemoQA/src/test/resources/features/addtocart.feature:19)&#13;
+</system-err></testcase></testsuite>

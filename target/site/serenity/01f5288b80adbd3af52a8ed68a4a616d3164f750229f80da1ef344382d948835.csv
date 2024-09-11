@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"cart","Add 2 products to cart","SUCCESS","2024-09-10T19:04:56.2401517-05:00[America/Bogota]","0.0","54.76"
+"cart","Add and delete item to cart","SUCCESS","2024-09-10T19:43:31.5294853-05:00[America/Bogota]","0.0","60.15"
+"cart","Add 2 products to cart","SUCCESS","2024-09-11T14:55:39.6200176-05:00[America/Bogota]","0.0","54.08"
+"cart","Add and delete item to cart","SUCCESS","2024-09-11T14:58:20.8925611-05:00[America/Bogota]","0.0","48.68"
